@@ -1,0 +1,286 @@
+$date
+	Sat Aug  1 14:02:38 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module register_file_tb $end
+$var wire 8 ! read_data2 [7:0] $end
+$var wire 8 " read_data1 [7:0] $end
+$var parameter 32 # ADDR_WIDTH $end
+$var parameter 32 $ N $end
+$var parameter 32 % NUM_REGS $end
+$var reg 1 & clk $end
+$var reg 3 ' read_address1 [2:0] $end
+$var reg 3 ( read_address2 [2:0] $end
+$var reg 1 ) rst $end
+$var reg 3 * write_address [2:0] $end
+$var reg 8 + write_data [7:0] $end
+$var reg 1 , write_enable $end
+$scope module dut $end
+$var wire 1 & clk $end
+$var wire 3 - read_address1 [2:0] $end
+$var wire 3 . read_address2 [2:0] $end
+$var wire 8 / read_data1 [7:0] $end
+$var wire 8 0 read_data2 [7:0] $end
+$var wire 1 ) rst $end
+$var wire 3 1 write_address [2:0] $end
+$var wire 8 2 write_data [7:0] $end
+$var wire 1 , write_enable $end
+$var parameter 32 3 ADDR_WIDTH $end
+$var parameter 32 4 N $end
+$var parameter 32 5 NUM_REGS $end
+$var reg 8 6 load [7:0] $end
+$scope begin REG_ARRAY[0] $end
+$var parameter 2 7 i $end
+$scope module REG $end
+$var wire 8 8 Din [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 9 en $end
+$var wire 1 ) rst $end
+$var parameter 32 : N $end
+$var reg 8 ; q [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin REG_ARRAY[1] $end
+$var parameter 2 < i $end
+$scope module REG $end
+$var wire 8 = Din [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 > en $end
+$var wire 1 ) rst $end
+$var parameter 32 ? N $end
+$var reg 8 @ q [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin REG_ARRAY[2] $end
+$var parameter 3 A i $end
+$scope module REG $end
+$var wire 8 B Din [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 C en $end
+$var wire 1 ) rst $end
+$var parameter 32 D N $end
+$var reg 8 E q [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin REG_ARRAY[3] $end
+$var parameter 3 F i $end
+$scope module REG $end
+$var wire 8 G Din [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 H en $end
+$var wire 1 ) rst $end
+$var parameter 32 I N $end
+$var reg 8 J q [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin REG_ARRAY[4] $end
+$var parameter 4 K i $end
+$scope module REG $end
+$var wire 8 L Din [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 M en $end
+$var wire 1 ) rst $end
+$var parameter 32 N N $end
+$var reg 8 O q [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin REG_ARRAY[5] $end
+$var parameter 4 P i $end
+$scope module REG $end
+$var wire 8 Q Din [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 R en $end
+$var wire 1 ) rst $end
+$var parameter 32 S N $end
+$var reg 8 T q [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin REG_ARRAY[6] $end
+$var parameter 4 U i $end
+$scope module REG $end
+$var wire 8 V Din [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 W en $end
+$var wire 1 ) rst $end
+$var parameter 32 X N $end
+$var reg 8 Y q [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin REG_ARRAY[7] $end
+$var parameter 4 Z i $end
+$scope module REG $end
+$var wire 8 [ Din [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 \ en $end
+$var wire 1 ) rst $end
+$var parameter 32 ] N $end
+$var reg 8 ^ q [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 ]
+b111 Z
+b1000 X
+b110 U
+b1000 S
+b101 P
+b1000 N
+b100 K
+b1000 I
+b11 F
+b1000 D
+b10 A
+b1000 ?
+b1 <
+b1000 :
+b0 7
+b1000 5
+b1000 4
+b11 3
+b1000 %
+b1000 $
+b11 #
+$end
+#0
+$dumpvars
+bx ^
+0\
+b0 [
+bx Y
+0W
+b0 V
+bx T
+0R
+b0 Q
+bx O
+0M
+b0 L
+bx J
+0H
+b0 G
+bx E
+0C
+b0 B
+bx @
+0>
+b0 =
+bx ;
+09
+b0 8
+b0 6
+b0 2
+b0 1
+bx 0
+bx /
+b0 .
+b0 -
+0,
+b0 +
+b0 *
+1)
+b0 (
+b0 '
+0&
+bx "
+bx !
+$end
+#5
+1>
+b10 6
+b10 +
+b10 2
+b10 8
+b10 =
+b10 B
+b10 G
+b10 L
+b10 Q
+b10 V
+b10 [
+b1 *
+b1 1
+1,
+0)
+1&
+#10
+0&
+#15
+b10 @
+1C
+0>
+b100 6
+b101 +
+b101 2
+b101 8
+b101 =
+b101 B
+b101 G
+b101 L
+b101 Q
+b101 V
+b101 [
+b10 *
+b10 1
+1&
+#20
+0&
+#25
+b101 E
+b101 !
+b101 0
+0C
+b0 6
+b10 (
+b10 .
+b10 "
+b10 /
+b1 '
+b1 -
+0,
+1&
+#26
+19
+b1 6
+b111 +
+b111 2
+b111 8
+b111 =
+b111 B
+b111 G
+b111 L
+b111 Q
+b111 V
+b111 [
+b0 *
+b0 1
+1,
+#30
+0&
+#35
+b111 ;
+09
+b0 6
+b111 "
+b111 /
+b0 '
+b0 -
+0,
+1&
+#40
+0&
+#45
+1&
+#50
+0&
+#55
+1&
+#56
