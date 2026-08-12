@@ -10,7 +10,7 @@ module alu_4bit (
 );
 
     // Internal wires
-    wire [4:0] add_temp; // 5-bit to capture carry
+    wire [4:0] add_temp; // Temporary 5-bit to capture carry
     wire [4:0] sub_temp;
 
     wire [3:0] add_out, sub_out, and_out, or_out;
@@ -19,7 +19,7 @@ module alu_4bit (
     assign add_temp = A + B;
     assign sub_temp = A - B;
 
-    assign add_out = add_temp[3:0];
+    assign add_out = add_temp[3:0]; //Adds the number without the carry to keep it simple 
     assign sub_out = sub_temp[3:0];
     assign and_out = A & B;
     assign or_out  = A | B;
@@ -33,7 +33,7 @@ module alu_4bit (
         case(opcode)
             2'b00: begin // ADD
                 Result = add_out;
-                C = add_temp[4];
+                C = add_temp[4]; //Also includes the carry here
 
                 // Overflow detection (signed)
                 V = (A[3] == B[3]) && (Result[3] != A[3]);

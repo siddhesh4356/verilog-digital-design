@@ -1,0 +1,76 @@
+$date
+	Sat Aug  8 02:20:05 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! prg_count [3:0] $end
+$var parameter 32 " N $end
+$var reg 1 # clk $end
+$var reg 4 $ pc_in [3:0] $end
+$var reg 1 % pc_load $end
+$var reg 1 & prg_inc $end
+$var reg 1 ' rst $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 4 ( pc_in [3:0] $end
+$var wire 1 % pc_load $end
+$var wire 1 & prg_inc $end
+$var wire 1 ' rst $end
+$var parameter 32 ) N $end
+$var reg 4 * prg_count [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 )
+b100 "
+$end
+#0
+$dumpvars
+b0 *
+b0 (
+1'
+0&
+0%
+b0 $
+0#
+b0 !
+$end
+#5
+1#
+#10
+0#
+b1011 $
+b1011 (
+1%
+0'
+#15
+b1011 !
+b1011 *
+1#
+#20
+0#
+1&
+0%
+#25
+b1100 !
+b1100 *
+1#
+#30
+0#
+b1111 $
+b1111 (
+1%
+0&
+#35
+b1111 !
+b1111 *
+1#
+#40
+0#
